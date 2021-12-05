@@ -1,0 +1,152 @@
+* {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	background-color: #301728FF;
+}
+
+h2, h3, #university, #head_table, .first_column {
+	color: #9F6B99FF;
+}
+
+#welcoming {
+	padding-left: 1.5em;
+	font-family: 'Gloria Hallelujah', cursive !important;
+	text-align: left;
+	color: #301728FF;
+	font-size: 4em;
+}
+
+.contact {
+	text-align: right;	
+	background-color: transparent;
+	background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a:link {
+  color: darkkhaki;
+}
+
+a:visited {
+	color: darkolivegreen;
+}
+
+a:hover {
+	color: lavender;
+	cursor: pointer;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+#team_name {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	background-color: transparent;
+}
+
+#logo {
+	width: 11em;
+	height: 11em;
+	margin-top: -27.85em;
+	padding-bottom: 18em;
+	margin-right: 19em;
+}
+
+#university {
+	margin-right: 14em;
+	padding-bottom: 12em;
+	background-image: url("https://www.azernews.az/media/2017/03/29/ada_university.jpg") !important;
+	background-size: 33em 14em;
+}
+
+#welcome {
+	margin-top: -17em;
+	width: 28em;
+	height: 15.65em;
+	margin-right: -28em;
+}
+
+.button {
+	margin-right: 5em;
+	margin-left: 5em;
+	background-color: #93385FFF;
+	border: 0.2em solid #9F6B99FF;
+	font-size: 1.5em;
+}
+
+.button:hover, .contact {
+	background-color: darkkhaki;
+	cursor: pointer;
+}
+
+
+.welcoming {
+	padding-bottom: 1em;
+	color: white;
+	background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#intro_message {
+	margin-top: -4em;
+	padding-right: 20em;
+	padding-left: 3em;
+	color: white;
+}
+
+#ilhama, #ravan, #nazrin, #rahman {
+	background-color: transparent;
+}
+
+.table {
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#university {
+	background-color: transparent;
+}
+
+#intro_team {
+	padding: 2em 3em;
+}
+
+#members {
+	padding: 2em 3em;
+}
+
+#hour_of_code {
+	padding: 2em 2em;
+}
+
+#clarification {
+	color: white;
+}
+
+th, td {
+	border: 0.1em solid white;
+}
+
+#contact {
+	color: darkkhaki;
+}
+
+#clockDisplay {
+	border: 0.1em solid white;
+	margin-left: 69.9em;
+	margin-top: -2em;
+	padding-top: 2em;
+	padding-right: 3em;
+	padding-left: 3em;
+	background-image: url("https://media.istockphoto.com/videos/realistic-drifting-smoke-clouds-fog-overlay-video-id1162348949?s=640x640");
+	color: white;
+	position: fixed;
+	z-index: 100;
+}

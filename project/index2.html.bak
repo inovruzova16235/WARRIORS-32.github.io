@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Team</title>
+		<link rel="icon" type="image/png" href="logo.png" />
+		<link href="style2.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Gloria+Hallelujah&family=Space+Mono&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="script.js"></script>
+		<script defer src="script2.js"></script>
+	</head>
+	<body onLoad="renderTime();">
+		<div id="clockDisplay" class="container"></div>
+		<h1>Preparation for the Projects and More about Us</h1>
+		<p>Every team has their own uniqueness and one of these criteria is team name. Our team name is inspired by the same-named song of Imagine Dragons. Well, to be more precise, this song is our motivation source, because we faced a lot of unlucky situations but never gave up. Lyrics say "We built this town from dust" just like how we built this website from scratch. Now let's consider our preparation process: During Hour of Code preparation, our first task was to contact appropriate school. After several attempts we finally found a school. Then each of us learned html, css, and even some javascipt individually. Yes, all the needed skills were there. All that was laft was brainstorming, gathering together, and creating our website. From our experience, the main parts of creating website include choosing colors, writing paragraphs, and determining the division of the labor. Therefore, we decided to do everything step by step and arrange meetings both on-campus and online. To see what each of us contributed, <button data-modal-target="#modal" style="color: white">click here.</button> Then in our last gathering, we tried to connect each page's theme to the main page's theme. Not only from CodeAcademy, but also from other sources we researched about how to make the best website and try to create the unique one. Here we remind a funny statement: "Not sure if I'm good at programming, or good at googling". But jokes aside, Designing images and choosing colors was one of our most time-consuming things. Despite all these things, in the end, we successfully finished our project. Hope you love it!</p>		
+		<div class="modal active" id="modal">
+			<div class="modal-header">
+				<div class="title" style="color: white">Individual Contributions</div>
+				<button data-close-button class="close-button" style="color: white">&times;</button>
+			</div>
+			<div class="modal-body">
+				<table>
+					<thead>
+						<tr>
+							<th><strong>Team member<strong></th>
+							<th><strong>Contribution to the project and report</strong></th>
+							<th><strong>Estimated %</strong></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="column"><strong>Ilhama Novruzova</strong></td>
+							<td>As a team leader, Ilhama created the main page, distributed work among members, edited other member's pages so that they had the same theme, and added javascript interactions to the pages.</td>
+							<td>28%</td>
+						</tr>
+						<tr>
+							<td class="column"><strong>Ravan Gozalov</strong></td>
+							<td>Ravan created the page about team and gave advice on color designs.</td>
+							<td>24%</td>
+						</tr>
+						<tr>
+							<td class="column"><strong>Nazrin Zamanova</strong></td>
+							<td>Nazrin created the page about members, and helped a lot with researching different sources.</td>
+							<td>24%</td>
+						</tr>
+						<tr>
+							<td class="column"><strong>Rahman Jabbarli</strong></td>
+							<td>Rahman created the page about Hour of Code, and arranged meetings.</td>
+							<td>24%</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="active" id="overlay"></div>
+		<img src="picture.jfif" width = 200px height=200px />
+	</body>
+</html>

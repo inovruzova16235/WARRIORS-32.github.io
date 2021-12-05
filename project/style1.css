@@ -1,0 +1,81 @@
+body {
+	background-image: url("pexels-eva-elijas-7605260.jpg");
+	background-size: contain;
+}
+
+.first-header {
+	border: 2px solid white;
+	border-left: 30px solid white;
+	border-right: 30px solid white;
+	border-radius: 30px;
+	background-color: #301728FF;
+	color: white;
+	font-family: "Century Gothic",sans-serif;
+	font-size: 4em;
+	text-align: center;
+}
+
+.first-question {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	width: 40%;
+}
+
+#first-paragraph {
+	border: 2px solid white;
+	border-radius: 30px;
+	color: white;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+	word-wrap: break-word;
+	float: left;
+	width: 40%;
+	padding: 30px;
+}
+
+.second-question {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 2em;
+    color: white;
+	text-align: center;
+	width: 40%;
+	float: right;
+	margin-top: -90px;
+}
+
+#second-paragraph {
+	border: 2px solid white;
+	border-radius: 30px;
+	color: white;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+	word-wrap: break-word;
+	float: right;
+	width: 40%;
+	padding: 10px;
+}
+
+iframe {
+	margin-right: -100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 20px;
+	border: 2px solid white;
+	float: right;
+}
+
+#clockDisplay {
+	border: 0.1em solid white;
+	margin-left: 69.9em;
+	margin-top: -3em;
+	padding-top: 2em;
+	padding-right: 3em;
+	padding-left: 3em;
+	background-image: url("https://media.istockphoto.com/videos/realistic-drifting-smoke-clouds-fog-overlay-video-id1162348949?s=640x640");
+	color: white;
+	position: fixed;
+	z-index: 100;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
